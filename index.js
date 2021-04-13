@@ -1,9 +1,9 @@
 // Code your solutions in this file
-function writeCards("Ada", "Brendan", "Ali"], "birthday"){
-  const array=["Ada", "Brendan", "Ali"]
-  const name="birthday";
+function writeCards(array[], name){
+  const array=["Ada", "Brendan", "Ali"];
+  name="birthday";
   for (let i=0;i=<array.length;i++)
   {
-    console.log("Thank you,"+ array[i] +",for the wonderful ${name} gift!");
+    console.log("Thank you, ${array[i]} ,for the wonderful ${name} gift!");
   }
 }
